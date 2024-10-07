@@ -1,0 +1,77 @@
+header i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+header #icon-container i:hover {
+    color: green; /* Aún más brillante */
+    transform: scale(1.2); /* Aumenta el tamaño al hacer hover */}
+
+
+header span {
+    color: rgba(36, 82, 122, 1); /* Aún más brillante */
+}
+
+header nav{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.container-fluid {
+    height: 100vh; /* Asegura que el contenedor fluido ocupe toda la altura */
+}
+
+#main-fila {
+    height: auto; /* Altura por defecto para móviles */
+}
+
+@media (min-width: 768px) {
+    #main-fila {
+        height: 100vh; /* Altura solo para pantallas más grandes */
+
+    }
+}
+
+@media (min-width: 768px) { 
+    #sidebar {
+        display: block; /* Siempre visible en pantallas grandes */
+        height: 100vh; /* Mantén la altura completa */
+        overflow: visible; /* Asegúrate de que el contenido sea visible */
+    }
+}
+
+#sidebar {
+    border: 25px solid white; /* Borde de 50px, color blanco */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    transition: height 0.1s; /* Transición suave */
+}
+
+.sidebar-nav ul {
+    padding: 0; 
+    margin: 0;
+}
+
+.sidebar-nav li {
+    list-style: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.sidebar-nav li a i {
+    font-size: 20px;
+    opacity: 0.8; /* Hace los iconos semitransparentes */
+    transition: opacity 0.3s ease; /* Suaviza la transición de opacidad */
+}
+
+.sidebar-nav li a:hover i {
+    opacity: 1; /* Los iconos se vuelven completamente visibles al pasar el cursor */
+}
+
+.sidebar-nav li a {
+    color: #333; /* Color del texto inicial */
+    transition: color 0.3s ease; /* Suaviza la transición del color del texto */
+}
+
+.sidebar-nav li a:hover {
+    color: #000; /* Cambia el color del texto al pasar el cursor */
+}
+

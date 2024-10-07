@@ -6,7 +6,7 @@
 
 ## Objetivo
 
-El objetivo de este trabajo práctico es que los estudiantes demuestren sus habilidades con las herramientas que utilizarán en el desarrollo web. Está diseñado para evaluar sus capacidades en la creación de sitios web estáticos mediante HTML y CSS
+El objetivo de este trabajo práctico es que los estudiantes demuestren sus habilidades con las herramientas que utilizarán en el desarrollo web. Está diseñado para evaluar sus capacidades en la creación de sitios web estáticos mediante HTML y CSS.
 
 Pondremos el foco en obtener un **código simple, bien diseñado y organizado**, así como el cumplimiento de todos los requerimientos solicitados.
 

@@ -1,0 +1,29 @@
+html, body {
+    height: 100vh;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 25px; /* Ajusta este valor según tus necesidades */
+    height: auto; /* Permite que la altura se ajuste al contenido */
+    transition: transform 0.3s, box-shadow 0.3s; /* Suaviza la transición */
+}
+.card-img-top {
+    height: 50px; /* Limita la altura de la imagen al 20% de la tarjeta */
+}
+
+.card h5 {
+    font-size: 20px;
+}
+
+.card-body {
+    flex-grow: 1; /* Permite que el cuerpo de la tarjeta crezca */
+}
+
+.card:hover {
+    transform: scale(1.01); /* Aumenta el tamaño al pasar el ratón */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra para efecto de profundidad */
+}
+
+

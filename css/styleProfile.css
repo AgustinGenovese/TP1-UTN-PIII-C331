@@ -1,0 +1,30 @@
+h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+}
+
+/* Consulta de medios para pantallas pequeñas */
+@media (max-width: 700px) {
+    #btnGuardar {
+        width: 100% !important;
+    }
+}
+
+#form {
+    margin: 20px;
+    padding: 15px;
+}
+
+/* Estilos para el contenedor de la imagen de perfil */
+#imgProfile {
+    width: 45%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+
