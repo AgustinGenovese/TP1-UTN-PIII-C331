@@ -1,0 +1,3 @@
+Buenas! El trabajo esta un poco avanzado porque en la segunda parte del cuatrimestre voy a tener menos tiempo para dedicarle. Por lo que quise avanzar lo maximo que podia. 
+
+El ingreso del usuario tiene una validacion simple con un if en la clase access.js. Se debe ingresar con el usuario prueba@gmail.com y la contrasena 1234
